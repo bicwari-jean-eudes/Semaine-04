@@ -1,0 +1,65 @@
+a.fb {
+  color: blue;
+}
+a.fb:hover {
+  color: rgb(71, 45, 119);
+  text-transform: uppercase;
+}
+a.fb::before {
+  content: '>';
+}
+a.fb::after {
+  content: '<';
+}
+a.youtube {
+  color: red;
+}
+a.youtube:hover {
+  color: brown;
+  text-transform: uppercase;
+}
+a.youtube::before {
+  content: '>';
+}
+a.youtube::after {
+  content: '<';
+}
+a.G {
+  color: blue;
+}
+a.G:hover {
+  color: blueviolet;
+  text-transform: uppercase;
+}
+a.G::before {
+  content: '>';
+}
+a.G::after {
+  content: '>';
+}
+a.Gt {
+  color: cornflowerblue;
+}
+a.Gt:hover {
+  color: darkblue;
+  text-transform: uppercase;
+}
+a.Gt::before {
+  content: '>';
+}
+a.Gt::after {
+  content: '<';
+}
+a.twi {
+  color: blue;
+}
+a.twi:hover {
+  color: aqua;
+  text-transform: uppercase;
+}
+a.twi::before {
+  content: '>';
+}
+a.twi::after {
+  content: '<';
+}
