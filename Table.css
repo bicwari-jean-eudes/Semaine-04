@@ -66,3 +66,7 @@ a.twi::after {
 table {
   width: 100%;
 }
+th,
+td {
+  border: 1px solid tomato;
+}

@@ -1,0 +1,52 @@
+body {
+  background-color: brown;
+}
+
+.secondCircle {
+  background-color: white;
+  width: 600px;
+  height: 600px;
+  border-radius: 100%;
+}
+.secondCircle {
+  position: relative;
+  left: 400px;
+}
+
+.thirdCircle {
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  text-align: center;
+}
+#circle3 {
+  position: relative;
+  left: 1020px;
+}
+.disclamer {
+  display: flex;
+  text-transform: capitalize;
+}
+#author {
+  position: relative;
+  top: 100px;
+}
+h3 {
+  position: relative;
+  top: 30px;
+}
+#quotes {
+  position: relative;
+  left: 38px;
+  top: 290px;
+}
+#alert {
+  position: relative;
+  left: 250px;
+  top: 400px;
+}
+h1 {
+  position: relative;
+  top: 100px;
+}

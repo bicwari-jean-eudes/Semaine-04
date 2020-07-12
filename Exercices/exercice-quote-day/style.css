@@ -1,3 +1,124 @@
-body{
-  width: auto;
+body {
+  background-color: olive;
+  width: 90%;
+  height: 98vh;
+}
+div {
+  display: flex;
+}
+
+.secondCircle {
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  border-radius: 100%;
+}
+.secondCircle:hover {
+  transform: scaleX(2);
+  background-color: chartreuse;
+}
+.secondCircle {
+  transition: background-color 5s, transform 10s;
+}
+@keyframes move-right {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translate(500px);
+  }
+}
+.secondCircle {
+  animation-name: move-right;
+  animation-duration: 30s;
+}
+.secondCircle {
+  position: relative;
+  left: 500px;
+}
+
+.firstCircle {
+  background-color: lightpink;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  text-align: center;
+}
+.firstCircle {
+  position: relative;
+  left: 40px;
+}
+@keyframes move-right {
+  form {
+    transform: translate(0);
+  }
+  to {
+    transform: translate(1000px);
+  }
+}
+.firstCircle {
+  animation-name: move-right;
+  animation-duration: 20s;
+}
+.quatrièmeCircle {
+  background-color: chocolate;
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  text-align: center;
+}
+.quatrièmeCircle {
+  position: relative;
+  left: 1150px;
+}
+.quatrièmeCircle:hover {
+  background-color: skyblue;
+  transform: scale(2);
+}
+.quatrièmeCircle {
+  transition: background-color 10s, transform 5s;
+}
+footer {
+  color: black;
+  font-style: italic;
+  font-size: larger;
+}
+#author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#quotes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: darkslategray;
+  font-size: larger;
+  font-style: italic;
+}
+.thirdCircle {
+  background-color: burlywood;
+  width: 60px;
+  height: 40px;
+}
+.thirdCircle {
+  position: relative;
+  left: 400px;
+}
+h4 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: black;
+}
+h1 {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
 }
